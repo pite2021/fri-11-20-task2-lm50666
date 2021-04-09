@@ -9,9 +9,6 @@ class Bank:
   def show_clients(self):
     for client in self.clients:
       print(client)
-  
-  #def update_bank(client,balance):
-   # client.set_money(balance)
 
 class Client:
 
@@ -33,8 +30,6 @@ class Client:
     client.amount_of_money+=amount
     self.amount_of_money-=amount
 
-  #def set_money(self,balance):
-   # self.amount_of_money=balance
 
 if __name__ == "__main__":
   bank=Bank("Krakow Bank")
